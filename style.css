@@ -1,0 +1,223 @@
+:root {
+--primary-color: darkblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#view{
+        display:none;
+    }
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display:flex;
+    flex-direction: column;
+    position:sticky;
+    top:0;
+}
+html{
+    resize: none;
+}
+.heading {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+header input {
+    margin: 20px 0;
+    padding:5px;
+    max-height: 30px;
+}
+
+.searchbox {
+    position: relative;
+    width: 300px;
+    padding:5px;
+}
+
+.searchbox input {
+    width: 90%;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.searchbox span {
+    background-color: white;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
+h1 {
+    display: inline-flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 10px;
+    color:orange;
+}
+nav{
+    position:sticky;
+    display:flex;
+    background-color: #f7f7f7;
+    justify-content: center;
+    gap:10px;
+}
+nav a{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    color:red;
+}
+
+.aboutme {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    padding: 10px;
+    padding-left: 0;
+    text-align: center;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme .About .box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.aboutme .About .box p {
+    display: inline-block;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    padding: 6px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.projects a{
+    color:var(--primary-color);
+    font-weight: bold;
+    font-size: 30px;
+    width:100%;
+}
+.projects h1{
+    font-size: 50px;
+}
+
+button {
+    padding: 5px;
+}
+
+.projects{
+    text-align: center;
+    flex-direction: column;
+    gap:5px;
+}
+.projecta a{
+    color: #3498db;
+}
+#Contact{
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--primary-color);
+    margin:0;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.aboutme .About .box p:hover,
+.box1:hover {
+    color: red;
+}
+
+.box1 a {
+    color:blue;
+    text-decoration: none;
+}
+input{
+    text-align: center;
+    overflow: hidden;
+}
+div h1, #Contact h1{
+    color:orangered;
+}
+.box1{
+    width:95%;
+    border:2px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+    header,.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+    .searchbox{
+        display: grid;
+        place-items: center;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    .aboutme {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+     .About,
+    form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutme .About p,
+    .aboutme .About h2 {
+        text-align: center;
+    }
+    nav a{
+        font-size: 13px;
+    }
+}
