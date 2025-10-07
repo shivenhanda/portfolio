@@ -4,4 +4,4 @@ Welcome to the repository of my **Shiven Handa Portfolio Website**, where I show
 
 👉 [🌐 **Visit My Portfolio**](https://shivenhanda.github.io/portfolio/)
 
-[![Portfolio Preview](https://raw.githubusercontent.com/shivenhanda/ShivenHandaPortfolioWebsite/main/ShivenHandaPortfolioWebsite.png)](https://shivenhanda.github.io/portfolio/)
+[![Portfolio Preview](https://raw.githubusercontent.com/shivenhanda/ShivenHandaPortfolioWebsite/main/portfoliowebsite.png)](https://shivenhanda.github.io/portfolio/)
